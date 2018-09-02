@@ -1,3 +1,3 @@
-def input_to_index(board, input)
-  board[input-1] = "X"
+def input_to_index(board, input, turn)
+  board[input-1] = turn
 end
