@@ -1,3 +1,3 @@
-def input_to_index(board, input, turn)
-  board[input-1] = turn
+def input_to_index(input)
+  cell = input.to_i
 end
