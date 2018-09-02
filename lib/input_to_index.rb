@@ -1,3 +1,3 @@
 def input_to_index(input)
-  cell = input.to_i
+  converted_input = input.to_i
 end
