@@ -10,7 +10,7 @@ turn = "X"
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 input = gets.strip
-cell=input_to_index(input)
+converted_input = input_to_index(input)
 if turn == "X"
   then
     turn = "O"
