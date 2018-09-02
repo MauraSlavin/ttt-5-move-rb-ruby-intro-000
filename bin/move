@@ -9,8 +9,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 turn = "X"
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
-input = gets.strip
-converted_input = input_to_index(input)
+user_input = gets.strip
+converted_input = input_to_index(user_input)
 if turn == "X"
   then
     turn = "O"
