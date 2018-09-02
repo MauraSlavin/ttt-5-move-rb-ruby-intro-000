@@ -11,7 +11,7 @@ puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 user_input = gets.strip
 converted_input = input_to_index(user_input)
-move(board,converted_input,turn)
+move(board,converted_input,"X")
 if turn == "X"
   then
     turn = "O"
