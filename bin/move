@@ -10,7 +10,7 @@ turn = "X"
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 input = gets.to_i
-input_to_index(board, input)
+input_to_index(board, input, turn)
 if turn == "X"
   then
     turn = "O"
